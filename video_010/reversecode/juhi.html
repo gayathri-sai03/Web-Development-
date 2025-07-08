@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse Array</title>
+</head>
+<body>
+
+<h2>Original and Reversed Array</h2>
+<p id="original"></p>
+<p id="reversed"></p>
+
+<script>
+    // Original array
+    let arr = [1, 2, 3, 4, 5];
+    document.getElementById("original").innerHTML = "Original array: " + arr;
+
+    // Reverse the array
+    let reversedArr = arr.slice().reverse();  // slice() to avoid modifying original
+    document.getElementById("reversed").innerHTML = "Reversed array: " + reversedArr;
+</script>
+
+</body>
+</html>
+
+
